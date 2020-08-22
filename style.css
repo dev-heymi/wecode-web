@@ -1,0 +1,122 @@
+* {
+    /* text-align: justify; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+  }
+  #navbar-menu {
+    text-align: center;
+    position: fixed;
+  }
+  li {
+    list-style: none;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .navbar {
+    width: 200px;
+    display: inline;
+    line-height: 1.2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+      "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    font-size: 3em;
+    font-weight: 700;
+    background-image: linear-gradient(
+      transparent calc(100% - 3px),
+      #000 3px
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.8s;
+    color: white;
+    cursor: pointer;
+  }
+  /* @media (min-width: 1000px) {
+    .navbar {
+      font-size: 5em;
+    }
+  }*/
+
+  .navbar {
+    background-image: linear-gradient(transparent 60%, #f8cd07 40%);
+  }
+
+  .navbar:hover {
+    background-size: 100% 100%;
+  }
+
+  /* home */
+
+  #home {
+    padding: 300px 0;
+    background: url(img/hello.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+
+  }
+  #homeimg img {
+    width: 30px;
+    padding-top:20px;
+  }
+  #home h1,
+  div {
+    text-align: center;
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+  }
+  /* About */
+  #about {
+    padding: 50px 0;
+    height: 100vh;
+    background: url(img/coding.png) no-repeat center; */
+  }
+  .container2 {
+    padding: 350px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:;
+  }
+  .container2 p{
+    display: inline;
+    background-color: rgba(255,255,255,0.3);
+    padding: 2rem;
+  }
+
+  /* Favorite */
+  #favorite {
+    padding: 300px 0;
+    text-align: center;
+    background-color: dimgray;
+  }
+  .favorite_thing {
+    display: flex;
+  }
+  .fav img {
+    width: 300px;
+    border-radius: 10%;
+
+    /* padding-bottom: 30px; */
+  }
+  .fav p {
+    padding-top: 30px;
+    color:white;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+  }
+
+  /* Contact */
+
+  #contact {
+    padding: 50px 0;
+  }
+  .container3 img,a{
+    width: 60px;
+    text-decoration: none;
+  }
+</style>
